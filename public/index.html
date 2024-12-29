@@ -1,0 +1,314 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Kanchan Rai</title>
+    <link rel="icon" type="image/png" href="images/theme/astro.png"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Hi,I'm Kanchan</h1>
+                <p>Discover my work and projects</p>
+                <div class="home-buttons">
+                    <a href="https://drive.google.com/file/d/1Zty_OnfD6r_QPdwTWoSSh1HAf9e_QE3p/view" target="_blank">Resume</a>
+                    <a href="https://www.linkedin.com/in/kanchanraiii" target="_blank">LinkedIn</a>
+                    <a href="https://www.twitter.com/kanchanraiii" target="_blank">Twitter</a>
+                    <a href="https://www.github.com/kanchanraiii" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img alt="A floating image of Kanchan" src="images/theme/astro.png"/>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about" data-aos="fade-up" data-aos-duration="9000">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>Hey I'm Kanchan Rai, a computer science student from India with a keen interest in machine learning. I’ve worked on various projects in this field and enjoy exploring new ideas. Alongside coding, I also have a flair for design.
+                Here, you'll discover the projects I’ve built, the work I’m currently pursuing, and the skills I bring to the table. 
+                <br><br>Why the space theme? Space, with its vast colors and wonders, inspired me to embrace simplicity through a black-and-white theme. Like space, I believe in endless possibilities, growth, and minimalism — focusing on clarity and efficiency in my work.
+            </p>
+        </div>
+    </section>
+
+    <!-- Meetup Image Slider Section -->
+    <section class="meetup-section" data-aos="fade-up">
+        <h2 data-aos-duration="9000">Explore My World</h2>
+        
+        <div class="content-container" data-aos-duration="9000">
+            <!-- Meetup Slider Section -->
+            <div class="slider-container">
+                <div class="slider" id="slider">
+                    <div class="slide">
+                        <img src="images/slider/shebuilds1.jpg" alt="Image 1">
+                        <div class="caption">SheBuilds Noida Meetup</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/cybercup.jpg" alt="Image 2">
+                        <div class="caption">CyberCup 4.0 Hackathon</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/datagenai1.jpg" alt="Image 3">
+                        <div class="caption">Data GenAi & Nexus by GDG Noida</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/datagenai2.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/gdsc1.jpg" alt="Image 3">
+                        <div class="caption">Organized GenAI Study Jams at Uni</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/microsoft1.jpg" alt="Image 3">
+                        <div class="caption">Azure Copilot Game Day</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/azure.jpg" alt="Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/microsoft2.jpg" alt="Image 3">
+                        <div class="caption">At Microsoft Gurugram</div>
+                    </div>
+                </div>
+
+                <!-- Left and Right buttons -->
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+
+            <!-- Dummy Text on the Right -->
+            <div class="text-container" data-aos="fade-up" data-aos-duration="9000">
+                <p>
+                    I really enjoy attending meetups and hackathons because they give me a chance to learn new things, work with others, and meet people who share similar interests. I've also had the opportunity to organize a few events at my university, which has been a fun and valuable experience. I also love designing with Figma, whether it's for graphic design or UI/UX work. In addition to design, I enjoy reading, especially books on philosophy. If you’re into philosophical reading too, feel free to reach out—I’d love to talk about it! 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contributions" id="meetup" data-aos="fade-up" data-aos-duration="9000">
+        <h2>GitHub Contributions</h2>
+        <!-- GitHub Contributions iframe -->
+  
+
+    <img src="https://ghchart.rshah.org/025217/kanchanraiii" width="75%" frameborder="0"/>
+      </section>
+          
+    <section class="skills" id="skills" data-aos="fade-up" data-aos-duration="9000">
+        <h2>Skills</h2>
+    
+        <!-- Programming Languages -->
+        <div class="skills-box" data-aos="fade-up" data-aos-duration="9000">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>
+                    <i class="devicon-python-plain-wordmark"></i>
+                    <p>Python</p>
+                </li>
+                <li>
+                    <i class="devicon-c-plain"></i>
+                    <p>C</p>
+                </li>
+                <li>
+                    <i class="devicon-cplusplus-plain"></i>
+                    <p>C++</p>
+                </li>
+                <li>
+                    <i class="devicon-java-plain"></i>
+                    <p>Java</p>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Web Development -->
+        <div class="skills-box" data-aos="fade-up" data-aos-duration="9000">
+            <h3>Web Development</h3>
+            <ul>
+                <li>
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </li>
+                <li>
+                    <i class="devicon-flask-original"></i>
+                    <p>Flask</p>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Databases -->
+        <div class="skills-box" data-aos="fade-up" data-aos-duration="9000">
+            <h3>Databases</h3>
+            <ul>
+                <li>
+                    <i class="devicon-mysql-plain"></i>
+                    <p>MySQL</p>
+                </li>
+                <li>
+                    <i class="devicon-mongodb-plain"></i>
+                    <p>MongoDB</p>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Data Science & Machine Learning -->
+        <div class="skills-box" data-aos="fade-up" data-aos-duration="9000">
+            <h3>Data Science & Machine Learning</h3>
+            <ul>
+                <li>
+                    <i class="devicon-numpy-plain"></i>
+                    <p>NumPy</p>
+                </li>
+                <li>
+                    <i class="devicon-pandas-plain"></i>
+                    <p>Pandas</p>
+                </li>
+                <li>
+                    <i class="devicon-scikitlearn-plain"></i>
+                    <p>Scikit-learn</p>
+                </li>
+                <li>
+                    <i class="devicon-tensorflow-original"></i>
+                    <p>TensorFlow</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+        
+    <section class="projects" id="projects" data-aos="fade-up" data-aos-duration="10000">
+        <h2>Projects</h2>
+        <ul>
+            <li data-aos="fade-up" data-aos-duration="10000">
+                <img alt="Project 1 image showing a detailed view of the project interface" src="images/projects/project1.png"/>
+                <h3>Krishi Mitr</h3>
+                <p>A Streamlit-deployed ML tool for farming decisions on rainfall, crop recommendation & yield.</p>
+                <div class="buttons">
+                    <a href="https://krishi-mitr.streamlit.app/" target="_blank">View Project</a>
+                    <a href="https://github.com/kanchanraiii/Krishi-Mitr" target="_blank">GitHub</a>
+                </div>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="10000">
+                <img alt="Project 2 image showing a detailed view of the project interface" src="images/projects/project2.jpg"/>
+                <h3>Portfolio Website</h3>
+                <p>This is my portfolio website you are currenlty viewing  deployed using firebase.</p>
+                <div class="buttons">
+                    <a href="https://kanchanraiii.web.app/" target="_blank">View Project</a>
+                    <a href="https://kanchanraiii.web.app/" target="_blank">GitHub</a>
+                </div>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="10000">
+                <img alt="Project 3 image showing a detailed view of the project interface" src="images/projects/project3.jpg"/>
+                <h3>AQI Predictor</h3>
+                <p>An AQI predictor web app built with XGBoost and Streamlit, utilizing web-scraped data.</p>
+                <div class="button">
+                    <a href="https://air-quality-predict.streamlit.app/" target="_blank">View Project</a>
+                    <a href="https://github.com/kanchanraiii/Air-Quality-Prediction" target="_blank">GitHub</a>
+                </div>
+            </li>
+            <li data-aos="fade-up" data-aos-duration="10000">
+                <img alt="Project 4 image showing a detailed view of the project interface" src="images/projects/project4.jpg"/>
+                <h3>Repository Monitor</h3>
+                <p>Offers insights on GitHub repositories and includes a PR quality checker, using the GitHub API and Flask. Currently working on this.</p>
+                <div class="buttons">
+                    <a href="https://github.com/kanchanraiii/PR_Quality_Checker" target="_blank">View Project</a>
+                    <a href="https://github.com/kanchanraiii/PR_Quality_Checker" target="_blank">GitHub</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="contact" id="contact" data-aos="fade-up" data-aos-duration="10000">
+        <h2 class="contacthead">Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input id="name" name="name" placeholder="Your Name" required="" type="text"/>
+                <input id="email" name="email" placeholder="Your Email" required="" type="email"/>
+                <textarea id="message" name="message" placeholder="Your Message" required="" rows="5"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contactimg" data-aos="fade-up" data-aos-duration="10000">
+                <img src="images/theme/lady.png" alt="Contact Image">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Made with ❣️ by Kanchan</p>
+        <div class="footer-buttons">
+            <a href="https://drive.google.com/file/d/1Zty_OnfD6r_QPdwTWoSSh1HAf9e_QE3p/view" target="_blank">Resume</a>
+            <a href="https://www.linkedin.com/in/kanchanraiii/" target="_blank">LinkedIn</a>
+            <a href="https://www.twitter.com/kanchanraiii" target="_blank">Twitter</a>
+            <a href="https://www.github.com/kanchanraiii" target="_blank">GitHub</a>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu.style.display === 'flex') {
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'flex';
+            }
+        }
+    </script>
+       <script src="script.js"></script>
+       <!-- AOS JS -->
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+        AOS.init(); // Initialize AOS
+    </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAAfH1VQt7A_rr58IWtnyOSFBJsCV1mg6c",
+          authDomain: "kanchan---portfolio.firebaseapp.com",
+          projectId: "kanchan---portfolio",
+          storageBucket: "kanchan---portfolio.firebasestorage.app",
+          messagingSenderId: "662587342481",
+          appId: "1:662587342481:web:2647b69082f64020f54930",
+          measurementId: "G-J3G20XY5LP"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
